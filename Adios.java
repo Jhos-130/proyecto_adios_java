@@ -11,5 +11,6 @@ public class Adios
         numero2 = scanner.nextInt();
          int resultado = numero1 + numero2;
          System.out.println("La suma es "+resultado);
+         scanner.close();
     }
 }
